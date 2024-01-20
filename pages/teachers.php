@@ -13,6 +13,8 @@ include_once '../templates/header.php';
 <?php include_once('../bootstrap/bootstrap.php'); ?>
 
 <div class="conatiner my-3 p-4">
+  <!-- logout button -->
+  <a href="../auth/logout.php" class="btn btn-secondary my-3" role="button">Logout</a>
   <h2>List of Clients</h2>
   <a href="./create.php" class="btn btn-primary my-3 mt-4" role="button">New Client</a>
   <table class="table table-bordered">
